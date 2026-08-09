@@ -1450,6 +1450,10 @@
         url = "javascript:(()=>{a='%s'.split(' ');location='https://www.reddit.com/r/'+a[0]+'/search/?q='+a.slice(1).join(' ')})()";
         keyword = "srs";
       }
+      {
+        name = "DNS Check";
+        url = "https://dnscheck.tools/";
+      }
     ];
   };
 }
