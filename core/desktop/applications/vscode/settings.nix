@@ -34,6 +34,7 @@
     "window.titleBarStyle" = "custom";
     "window.zoomLevel" = config.vscode.zoomLevel;
     "workbench.editor.empty.hint" = "hidden";
+    "workbench.editor.useModal" = "off";
     "workbench.startupEditor" = "none";
     "[latex]" = {
       "editor.rulers" = [ 80 ];
