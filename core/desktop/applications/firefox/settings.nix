@@ -72,6 +72,8 @@
       "mousewheel.default.delta_multiplier_y" = config.firefox.scrollSpeed;
       "permissions.default.desktop-notification" = 2;
       "permissions.default.geo" = 2;
+      "privacy.userContext.enabled" = false;
+      "privacy.userContext.ui.enabled" = false;
       "places.history.enabled" = false;
       "sidebar.revamp" = false;
       "sidebar.visibility" = "hide-sidebar";
