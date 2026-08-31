@@ -1,3 +1,5 @@
+# https://mozilla.github.io/policy-templates/
+
 {
   home-manager.users.luke.programs.firefox.policies = {
     AutofillAddressEnabled = false;
