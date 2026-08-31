@@ -45,7 +45,7 @@
       "browser.profiles.enabled" = false;
       "browser.search.suggest.enabled.private" = true;
       "browser.sessionstore.restore_pinned_tabs_on_demand" = true;
-      "browser.startup.homepage" = "chrome://browser/content/blanktab.html";
+      "browser.startup.homepage" = "about:newtab";
       "browser.startup.page" = 3;
       "browser.tabs.firefox-view" = false;
       "browser.tabs.insertAfterCurrent" = false;
