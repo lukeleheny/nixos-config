@@ -1365,7 +1365,7 @@
       {
         name = "Duck.ai Search";
         url = "https://duckduckgo.com/?q=!ai+%s";
-        keyword = "da";
+        keyword = "das";
       }
       {
         name = "TimeGuessr";
@@ -1453,6 +1453,11 @@
       {
         name = "DNS Check";
         url = "https://dnscheck.tools/";
+      }
+      {
+        name = "Duck.ai";
+        url = "https://duck.ai/";
+        keyword = "da";
       }
     ];
   };
