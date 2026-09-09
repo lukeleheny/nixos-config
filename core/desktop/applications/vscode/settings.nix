@@ -26,6 +26,7 @@
     "security.workspace.trust.untrustedFiles" = "open";
     "svelte.enable-ts-plugin" = true;
     "telemetry.telemetryLevel" = "off";
+    "terminal.integrated.initialHint" = false;
     "terminal.integrated.persistentSessionReviveProcess" = "never";
     "update.mode" = "none";
     "vim.useSystemClipboard" = true;
