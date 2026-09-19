@@ -26,7 +26,6 @@
     settings = {
       "accessibility.force_disabled" = 0;
       "browser.aboutConfig.showWarning" = false;
-      "browser.ai.control.default" = "blocked";
       "browser.bookmarks.editDialog.showForNewBookmarks" = false;
       "browser.download.alwaysOpenPanel" = false;
       "browser.download.autohideButton" = false;

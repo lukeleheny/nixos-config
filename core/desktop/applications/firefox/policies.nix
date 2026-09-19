@@ -2,6 +2,12 @@
 
 {
   home-manager.users.luke.programs.firefox.policies = {
+    AIControls = {
+      Default = {
+        Value = "blocked";
+        Locked = true;
+      };
+    };
     AutofillAddressEnabled = false;
     AutofillCreditCardEnabled = false;
     DisableAccounts = true;
@@ -47,9 +53,6 @@
     };
     GenerativeAI = {
       Enabled = false;
-      Chatbot = false;
-      LinkPreviews = false;
-      TabGroups = false;
       Locked = true;
     };
     HardwareAcceleration = true;
