@@ -1459,6 +1459,10 @@
         url = "https://duck.ai/";
         keyword = "da";
       }
+      {
+        name = "Cumberland Counseling LLC";
+        url = "https://www.cumberlandcounselingllc.com/";
+      }
     ];
   };
 }
