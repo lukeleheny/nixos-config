@@ -78,7 +78,7 @@
       History = false;
       Sessions = true;
       SiteSettings = false;
-      Locked = true;
+      Locked = false;
     };
     SearchEngines = {
       Default = "DuckDuckGo";
