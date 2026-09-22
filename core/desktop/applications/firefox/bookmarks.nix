@@ -1463,6 +1463,10 @@
         name = "Cumberland Counseling LLC";
         url = "https://www.cumberlandcounselingllc.com/";
       }
+      {
+        name = "DistroKid";
+        url = "https://distrokid.com/";
+      }
     ];
   };
 }
