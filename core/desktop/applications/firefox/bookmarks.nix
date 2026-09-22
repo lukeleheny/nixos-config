@@ -1372,14 +1372,6 @@
         url = "https://timeguessr.com/";
       }
       {
-        name = "Outlook";
-        url = "https://outlook.office.com/mail/";
-      }
-      {
-        name = "KaseyaOne";
-        url = "https://one.kaseya.com/";
-      }
-      {
         name = "Slack";
         url = "https://app.slack.com/client/";
       }
