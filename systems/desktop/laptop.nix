@@ -1,4 +1,4 @@
-{ pkgs, ... }:
+{ lib, pkgs, ... }:
 
 {
   imports = [
@@ -7,14 +7,14 @@
     ../../modules/desktop/social.nix
     ../../modules/development/javascript.nix
     ../../modules/hardware/ecotank.nix
+    ../../modules/hardware/k400-plus.nix
   ];
 
   dconf = {
-    experimentalFeatures = [ "scale-monitor-framebuffer" ];
     nightLightTemperature = 2700;
   };
 
-  firefox.scrollSpeed = 50;
+  firefox.scrollSpeed = lib.mkDefault 50;
 
   networking.networkmanager.wifi.powersave = false;
 
