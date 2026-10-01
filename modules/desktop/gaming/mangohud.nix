@@ -5,7 +5,6 @@
 
 {
   users.users.luke.packages = with pkgs; [
-    goverlay
     mangohud
   ];
 
