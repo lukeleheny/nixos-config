@@ -43,7 +43,6 @@
       "browser.tabs.insertAfterCurrent" = false;
       "browser.tabs.tabmanager.enabled" = false;
       "browser.translations.automaticallyPopup" = false;
-      "browser.urlbar.scotchBonnet.enableOverride" = false;
       "browser.urlbar.shortcuts.bookmarks" = false;
       "browser.urlbar.shortcuts.history" = false;
       "browser.urlbar.shortcuts.quickactions" = false;
