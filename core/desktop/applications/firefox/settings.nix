@@ -51,6 +51,7 @@
       "browser.urlbar.suggest.history" = false;
       "browser.urlbar.suggest.openpage" = false;
       "browser.urlbar.suggest.quickactions" = false;
+      "browser.urlbar.suggest.recentsearches" = false;
       "browser.urlbar.suggest.topsites" = false;
       "browser.warnOnQuitShortcut" = true;
       "datareporting.healthreport.uploadEnabled" = false;
