@@ -82,15 +82,6 @@
     };
     SearchEngines = {
       Default = "DuckDuckGo";
-      Remove = [
-        "Google"
-        "Bing"
-        "Yahoo"
-        "Amazon.com"
-        "eBay"
-        "Wikipedia (en)"
-        "Perplexity"
-      ];
     };
   };
 }
