@@ -67,7 +67,7 @@
       "privacy.userContext.enabled" = false;
       "privacy.userContext.ui.enabled" = false;
       "places.history.enabled" = false;
-      "sidebar.revamp" = false;
+      "sidebar.verticalTabs" = false;
       "sidebar.visibility" = "hide-sidebar";
     };
   };
