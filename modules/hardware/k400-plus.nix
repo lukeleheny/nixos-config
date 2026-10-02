@@ -1,5 +1,3 @@
-{ pkgs, ... }:
-
 {
   dconf = {
     mouseAccelProfile = "default";

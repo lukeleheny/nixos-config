@@ -8,13 +8,12 @@
     ../../modules/development/javascript.nix
     ../../modules/hardware/ecotank.nix
     ../../modules/hardware/k400-plus.nix
+    ../../modules/hardware/trackpad.nix
   ];
 
   dconf = {
     nightLightTemperature = 2700;
   };
-
-  firefox.scrollSpeed = lib.mkDefault 50;
 
   networking.networkmanager.wifi.powersave = false;
 
