@@ -1459,6 +1459,10 @@
         name = "DistroKid";
         url = "https://distrokid.com/";
       }
+      {
+        name = "Firefox Release Notes";
+        url = "https://www.firefox.com/en-US/releases/";
+      }
     ];
   };
 }
