@@ -22,6 +22,11 @@
       default = false;
       description = "Natural scrolling";
     };
+    nightLightAlwaysOn = lib.mkOption {
+      type = lib.types.bool;
+      default = false;
+      description = "Whether night light is always on";
+    };
     nightLightTemperature = lib.mkOption {
       type = lib.types.int;
       default = 3000;
@@ -100,7 +105,9 @@
           41.8240
           (-71.4128)
         ]);
-        night-light-schedule-automatic = true;
+        night-light-schedule-automatic = !config.dconf.nightLightAlwaysOn;
+        night-light-schedule-from = lib.hm.gvariant.mkDouble 12.0;
+        night-light-schedule-to = lib.hm.gvariant.mkDouble 12.0;
         night-light-temperature = lib.hm.gvariant.mkUint32 config.dconf.nightLightTemperature;
       };
       "org/gnome/settings-daemon/plugins/media-keys" = {
