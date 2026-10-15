@@ -1463,6 +1463,10 @@
         name = "Firefox Release Notes";
         url = "https://www.firefox.com/en-US/releases/";
       }
+      {
+        name = "Free VST Plugins";
+        url = "https://bedroomproducersblog.com/free-vst-plugins/";
+      }
     ];
   };
 }
