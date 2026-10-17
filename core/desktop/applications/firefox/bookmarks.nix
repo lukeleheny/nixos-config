@@ -41,13 +41,8 @@
       }
       {
         name = "DuckDuckGo — Privacy, simplified.";
-        url = "https://duckduckgo.com/";
+        url = "https://start.duckduckgo.com/";
         keyword = "ddg";
-      }
-      {
-        name = "DuckDuckGo Search";
-        url = "https://duckduckgo.com/?q=%s";
-        keyword = "d";
       }
       {
         name = "Facebook";
@@ -1364,8 +1359,8 @@
       }
       {
         name = "Duck.ai Search";
-        url = "https://duckduckgo.com/?q=!ai+%s";
-        keyword = "das";
+        url = "https://duck.ai/chat?ia=chat&home=1&prompt=1&q=%s";
+        keyword = "d";
       }
       {
         name = "TimeGuessr";
