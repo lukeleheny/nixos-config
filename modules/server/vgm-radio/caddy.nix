@@ -18,6 +18,11 @@
         root * /www/resume
         file_server
       }
+
+      handle_path /files/* {
+        root * /www/files
+        file_server
+      }
     '';
   };
 
