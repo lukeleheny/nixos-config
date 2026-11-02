@@ -21,6 +21,7 @@
     package = pkgs.appimage-run.override {
       extraPkgs = pkgs: [
         pkgs.curl
+        pkgs.libgpg-error
       ];
     };
   };
