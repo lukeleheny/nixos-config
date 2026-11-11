@@ -1,7 +1,7 @@
 {
   home-manager.users.luke.programs.alacritty = {
     enable = true;
-    theme = "hyper";
+    theme = "kitty";
     settings = {
       env = {
         TERM = "xterm-256color";
